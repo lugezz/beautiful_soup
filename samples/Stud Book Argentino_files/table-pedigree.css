@@ -1,0 +1,89 @@
+#table-pedigree td {
+    vertical-align: middle !important;
+    padding:6px;
+  }
+
+#table-pedigree .select2 {
+    margin-bottom:8px !important;
+}
+
+#table-pedigree td.l2 .w1 {
+    margin-bottom:64px;
+}
+
+#table-pedigree label {
+    display:block;
+    text-align:center;
+}
+
+#table-pedigree.solo-data .wMacho {
+    background-color:#3c8dbc;
+}
+
+#table-pedigree.solo-data .wHembra {
+    background-color:#D81B60;
+}
+
+#table-pedigree.solo-data .wHembra, #table-pedigree.solo-data .wMacho {
+    color:white;
+    text-align: center;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 10px;
+    width:165px;
+}
+
+#table-pedigree.solo-data.l4 td.l2  div.w2 {
+    
+}
+
+#table-pedigree.solo-data.l4 td.l2  div.w1 {
+    margin-bottom:180px !important;
+}
+
+#table-pedigree.solo-data.l4 td.l3  div {
+    margin-bottom:67px;
+}
+
+#table-pedigree.solo-data td.l4  div {
+    margin-bottom:4px;
+}
+
+#table-pedigree.solo-data td.l3  div {
+    margin-bottom:10px;
+}
+
+#table-pedigree.solo-data td.l3  div.w2 {
+    margin-bottom:38px;
+}
+
+#table-pedigree.solo-data td.l3  div.w1, #table-pedigree.solo-data td.l3  div.w3 {
+    margin-bottom:40px;
+}
+
+#table-pedigree.solo-data td.l2  div.w1 {
+    margin-bottom:110px;
+}
+
+#table-pedigree.solo-data td.l2  div.w2 {
+    margin-bottom:10px;
+}
+
+#table-pedigree.solo-data a {
+    color:white;
+}
+  
+
+.w1 .select2 {}
+
+.wMacho .select2 {
+    border:1px solid #3c8dbc;
+}
+
+.wHembra .select2 {
+    border:1px solid #dc4f50;
+}
+
+#table-pedigree.mobile div.w1 {
+    margin-bottom:0px;
+}

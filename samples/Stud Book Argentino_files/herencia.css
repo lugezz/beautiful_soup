@@ -1,0 +1,87 @@
+.canvas .h {
+	position:absolute;
+}
+
+.canvas .h p {
+	position:absolute;
+	width:170px;
+	text-align:center;
+	font-size:12px;
+	padding:3px;
+	border-radius: 4px;
+}
+
+.canvas .h p small {
+	display:block;
+	font-size:10px;
+	color:#FFF;
+}
+
+.canvas .h p a , .canvas .h p  {
+	color:#FFF !important;
+}
+
+.canvas .h p.macho , .ext-box.macho {
+	background-color:#3c8dbc;
+}
+
+.canvas .h p.hembra, .ext-box.hembra {
+	background-color:#D81B60;
+}
+
+.canvas .h p.init {
+	background-color:#ccc;
+}
+
+.canvas .h p.inb1, div.inb1 {border:1px solid rgb(133, 2, 255) !important; border-right:4px solid rgb(133, 2, 255) !important;}
+
+.canvas .h p.inb2, div.inb2 {border:1px solid rgb(113, 211, 33) !important; border-right:4px solid rgb(113, 211, 33) !important;}
+
+.canvas .h p.inb3, div.inb3 {border:1px solid rgb(187, 159, 0) !important; border-right:4px solid rgb(187, 159, 0) !important;}
+
+.canvas .h p.inb4, div.inb4 {border:1px solid rgb(77, 0, 38) !important; border-right:4px solid rgb(77, 0, 38) !important;}
+
+.canvas .h p.init a {
+	color:#333 !important;
+}
+
+.box-inb {
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	margin-right:4px;
+	border-radius: 50%
+}
+
+.box-inb.inb1 { background-color:  rgb(133, 2, 255)}
+.box-inb.inb2 { background-color:  rgb(113, 211, 33)}
+.box-inb.inb3 { background-color:  rgb(187, 159, 0)}
+.box-inb.inb4 { background-color:  rgb(77, 0, 38)}
+
+.inb1 { color:  rgb(133, 2, 255)}
+.inb2 { color:  rgb(113, 211, 33)}
+.inb3 { color:  rgb(187, 159, 0)}
+.inb4 { color:  rgb(77, 0, 38)}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1px;
+}
+
+.link.macho {
+  stroke:#D81B60;
+}
+.ext-box {
+	padding:10px; border-radius:4px
+}
+.ext-box h5, .ext-box a {
+	color:white !important;
+}
+
