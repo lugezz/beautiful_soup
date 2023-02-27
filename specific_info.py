@@ -14,6 +14,5 @@ print(full_table.tbody.find_all('tr')[-1].find('td').a.text)
 
 print("=" * 100)
 
-temp_items = soup.find_all('p', class_="text-center")
-for temp_item in temp_items:
-    print(temp_item.text)
+temp_item = soup.find('p', class_="text-center").text.replace('\n', '')
+print(temp_item)
